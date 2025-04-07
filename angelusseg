@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simule seu Seguro - Angelus Seguros S/A</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #001f3f;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    section.lead {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    section.lead h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    section.lead p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: #0074D9;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    section img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+      border-radius: 10px;
+    }
+    section.quem-somos, section.termos {
+      background-color: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section.quem-somos h2, section.termos h2 {
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+    section.quem-somos p, section.termos p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    section.depoimentos, section.perguntas {
+      padding: 40px 20px;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    section.depoimentos h2, section.perguntas h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .depoimento, .pergunta {
+      max-width: 700px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .depoimento p, .pergunta p {
+      margin: 10px 0;
+    }
+    .estrela {
+      color: gold;
+    }
+    section.politica {
+      padding: 40px 20px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+    section.politica h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    section.politica p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 14px;
+      color: #555;
+      text-align: left;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+    footer div {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    footer h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    footer p {
+      margin: 5px 0;
+      font-size: 15px;
+    }
+    footer p:last-child {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ANGELUS SEGUROS S/A</h1>
+    <p>Protegendo o que importa para você</p>
+  </header>
+
+  <section class="lead">
+    <h2>Simule seu seguro gratuitamente</h2>
+    <p>Seguro de vida, auto, saúde, residencial e empresarial com atendimento personalizado.</p>
+    <img src="https://images.unsplash.com/photo-1588776814546-b102167f1047?auto=format&fit=crop&w=1050&q=80" alt="Seguro auto">
+    <a href="#" class="cta-button">Simular Agora</a>
+  </section>
+
+  <section class="quem-somos">
+    <h2>Quem Somos</h2>
+    <p>A Angelus Seguros S/A é uma sociedade seguradora especializada em seguros de vida, com experiência sólida no mercado e compromisso com a proteção e o bem-estar dos nossos clientes. Atuamos com responsabilidade, agilidade e excelência no atendimento personalizado para garantir tranquilidade em todos os momentos.</p>
+    <img src="https://images.unsplash.com/photo-1601582585093-787c009be6f6?auto=format&fit=crop&w=1050&q=80" alt="Família protegida">
+  </section>
+
+  <section class="depoimentos">
+    <h2>Depoimentos</h2>
+    <div class="depoimento">
+      <p><strong>Camila R.</strong> ⭐⭐⭐⭐⭐</p>
+      <p>Atendimento impecável e seguro aprovado rapidamente. Recomendo muito!</p>
+    </div>
+    <div class="depoimento">
+      <p><strong>Eduardo M.</strong> ⭐⭐⭐⭐⭐</p>
+      <p>Profissionais atenciosos e ótima cobertura. Muito satisfeito!</p>
+    </div>
+  </section>
+
+  <section class="perguntas">
+    <h2>Perguntas Frequentes</h2>
+    <div class="pergunta">
+      <p><strong>Como funciona a simulação?</strong></p>
+      <p>Você clica em "Simular Agora", preenche seus dados e em breve entraremos em contato com a melhor proposta.</p>
+    </div>
+    <div class="pergunta">
+      <p><strong>Quais seguros posso contratar?</strong></p>
+      <p>Oferecemos seguros de vida, auto, saúde, residencial e empresarial.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1050&q=80" alt="Seguro empresarial">
+  </section>
+
+  <section class="politica">
+    <h2>Política de Privacidade</h2>
+    <p>Seus dados são tratados com total sigilo e segurança, utilizados apenas para atendimento e propostas personalizadas.</p>
+    <p>Você pode solicitar exclusão ou alteração a qualquer momento.</p>
+  </section>
+
+  <section class="termos">
+    <h2>Termos de Uso</h2>
+    <p>Ao utilizar este site, você concorda com nossos termos de atendimento e consentimento de dados. Leia com atenção.</p>
+    <img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1050&q=80" alt="Termos e contrato">
+  </section>
+
+  <footer>
+    <div>
+      <h3>ANGELUS SEGUROS S/A</h3>
+      <p>CNPJ: 18.133.809/0001-57</p>
+      <p>Av. Pedro Taques, 294, Sala 504 Torre Sul, Zona Armazém, Maringá/PR, CEP 87030-008</p>
+      <p>Email: contato@angelusseguros.com.br | Telefone: (44) 3013-9350</p>
+      <p>&copy; 2025 Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
